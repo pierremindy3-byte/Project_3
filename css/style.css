@@ -1,0 +1,124 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #000000;
+  margin: 2rem;
+  line-height: 1.5;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+ul:first-of-type {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+ul:first-of-type li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+img {
+  display: block;
+  max-width: 50%;
+  height: auto;
+  margin: 1rem auto;
+}
+
+ul {
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+video {
+  display: block;
+  margin: 1rem auto;
+  max-width: 60%;
+}
+
+#about-page {
+  background-color: #f2f8ff;
+}
+
+#about-page h1 {
+  color: #1d4e89;
+}
+
+#about-page img {
+  border: 0.2rem solid #1d4e89;
+}
+
+#about-page p {
+  max-width: 60rem;
+}
+
+#about-page ul:first-of-type li a {
+  color: #1d4e89;
+}
+
+#resume-page {
+  background-color: #f9f9f9;
+}
+
+#resume-page h1 {
+  color: #444444;
+}
+
+#resume-page img {
+  border: 0.2rem solid #444444;
+}
+
+#resume-page h2 {
+  border-bottom: 0.1rem solid #444444;
+}
+
+#resume-page ul {
+  max-width: 55rem;
+}
+
+#favorites-page {
+  background-color: #eefaf0;
+}
+
+#favorites-page h1 {
+  color: #2f6f3e;
+}
+
+#favorites-page img {
+  border: 0.2rem solid #2f6f3e;
+}
+
+#favorites-page video {
+  max-width: 70%;
+}
+
+#favorites-page ul:first-of-type li a {
+  color: #2f6f3e;
+}
