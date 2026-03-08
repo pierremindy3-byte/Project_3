@@ -122,3 +122,54 @@ video {
 #favorites-page ul:first-of-type li a {
   color: #2f6f3e;
 }
+
+#map {
+  width: 100%;
+  height: 30rem;
+  margin: 2rem auto;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    margin: 3rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  img {
+    max-width: 60%;
+  }
+
+  ul:first-of-type {
+    gap: 3rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    max-width: 75rem;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+
+  img {
+    max-width: 40%;
+  }
+
+  video {
+    max-width: 50%;
+  }
+}
